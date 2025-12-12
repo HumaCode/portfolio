@@ -1,8 +1,14 @@
-import React from 'react'
+import Hero from './Hero/Hero'
+import Services from './Services/Services'
+import Resume from './Resume/Resume'
 
 function Home() {
   return (
-    <div className='overflow-hidden h-[2000px]'>Home</div>
+    <div className='overflow-hidden'>
+        <Hero/>  
+        <Services/>  
+        <Resume/>  
+    </div>
   )
 }
 
